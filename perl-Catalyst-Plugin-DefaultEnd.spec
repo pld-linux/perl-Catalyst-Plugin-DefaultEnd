@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Catalyst
 %define	pnam	Plugin-DefaultEnd
-Summary:	Catalyst::Plugin::DefaultEnd - Sensible default end action.
-#Summary(pl):	
+Summary:	Catalyst::Plugin::DefaultEnd - Sensible default end action
+Summary(pl):	Catalyst::Plugin::DefaultEnd - sensowna domy¶lna akcja koñcz±ca
 Name:		perl-Catalyst-Plugin-DefaultEnd
 Version:	0.03
 Release:	1
@@ -24,13 +24,17 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This action implements a sensible default end action, which will forward
-to the first available view, unless status is set to 3xx, or there is a
-response body. It also allows you to pass dump_info=1 to the url in order
-to force a debug screen, while in debug mode.
+This action implements a sensible default end action, which will
+forward to the first available view, unless status is set to 3xx, or
+there is a response body. It also allows you to pass dump_info=1 to
+the URL in order to force a debug screen, while in debug mode.
 
-# %description -l pl
-# TODO
+%description -l pl
+Ta akcja implementuje sensown± domy¶ln± akcjê koñcz±c±,
+przekierowuj±c± na pierwszy dostêpny widok, chyba ¿e status ustawiono
+na 3xx lub istnieje cia³o odpowiedzi. Pozwala tak¿e przekazaæ
+dump_info=1 do URL-a w celu wymuszenia ekranu diagnostycznego w
+przypadku w³±czonego trybu ¶ledzenia (debug mode).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
