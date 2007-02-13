@@ -6,7 +6,7 @@
 %define	pdir	Catalyst
 %define	pnam	Plugin-DefaultEnd
 Summary:	Catalyst::Plugin::DefaultEnd - Sensible default end action
-Summary(pl.UTF-8):   Catalyst::Plugin::DefaultEnd - sensowna domyślna akcja kończąca
+Summary(pl.UTF-8):	Catalyst::Plugin::DefaultEnd - sensowna domyślna akcja kończąca
 Name:		perl-Catalyst-Plugin-DefaultEnd
 Version:	0.04
 Release:	1
