@@ -8,13 +8,13 @@
 Summary:	Catalyst::Plugin::DefaultEnd - Sensible default end action
 Summary(pl.UTF-8):	Catalyst::Plugin::DefaultEnd - sensowna domyślna akcja kończąca
 Name:		perl-Catalyst-Plugin-DefaultEnd
-Version:	0.07
+Version:	0.08
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Catalyst/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	2c476b45eb264d2b8678f44d5895c1af
+# Source0-md5:	4808d527a2842c82687c4a561bcc3644
 URL:		http://search.cpan.org/dist/Catalyst-Plugin-DefaultEnd/
 BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
